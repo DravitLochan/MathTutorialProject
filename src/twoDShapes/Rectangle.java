@@ -5,13 +5,13 @@ public class Rectangle extends Closed2DShapes{
 	int length,breadth;
 	
 	@Override
-	int surfaceArea() {
+	float surfaceArea() {
 		
 		return length*breadth;
 	}
 
 	@Override
-	int perimeter() {
+	float perimeter() {
 		
 		return 2*(length+breadth);
 	}
