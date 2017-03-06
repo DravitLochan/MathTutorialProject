@@ -2,7 +2,7 @@ package twoDShapes;
 
 public class Triangle extends Closed2DShapes{
 
-	int s1,s2,s3;
+	float s1,s2,s3;
 	@Override
 	float surfaceArea() {
 		float area=0;
