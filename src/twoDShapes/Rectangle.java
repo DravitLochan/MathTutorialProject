@@ -2,7 +2,7 @@ package twoDShapes;
 
 public class Rectangle extends Closed2DShapes{
 
-	int length,breadth;
+	float length,breadth;
 	
 	@Override
 	float surfaceArea() {
@@ -16,12 +16,12 @@ public class Rectangle extends Closed2DShapes{
 		return 2*(length+breadth);
 	}
 	
-	int getLegnth()
+	float getLegnth()
 	{
 		return length;
 	}
 	
-	int getBreadth()
+	float getBreadth()
 	{
 		return breadth;
 	}
